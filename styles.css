@@ -6,9 +6,6 @@
     --fontFamily: 'Roboto';
     --fontSize: 18px;
   }
-}
-
-
 
 * {
   margin: 0;
@@ -16,21 +13,31 @@
 }
 
 section {
+  background-color: rgb(253, 253, 74);
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 300px;
+  width: 500px;
 }
+
 #taskInput {
   height: 25px;
   width: 250px;
-  border-radius: 12.5px 0 0 12.5px;
+  border: black solid 1px;
+  border-radius: 25px 0 0 25px;
+  color: black;
+  background-color: rgb(253, 253, 61);
 }
 
 #subButton {
   height: 25px;
   width: 100px;
-  border-radius: 0 12.5px 12.5px 0;
+  border: black solid 1px;
+  border-radius: 0 25px 25px 0;
   cursor: pointer;
+  color: black;
+  background-color: rgb(255, 255, 0);
 }
 
 li {
