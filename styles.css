@@ -12,13 +12,26 @@
   box-sizing: border-box;
 }
 
+main {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 section {
   background-color: rgb(253, 253, 74);
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
+  height: 500px;
   width: 500px;
+}
+
+header, footer {
+  background-color: white;
+  height: 1fr;
+  width: 100%;
 }
 
 #taskInput {
@@ -27,7 +40,7 @@ section {
   border: black solid 1px;
   border-radius: 25px 0 0 25px;
   color: black;
-  background-color: rgb(253, 253, 61);
+  background-color: rgb(241, 241, 70);
 }
 
 #subButton {
@@ -37,7 +50,7 @@ section {
   border-radius: 0 25px 25px 0;
   cursor: pointer;
   color: black;
-  background-color: rgb(255, 255, 0);
+  background-color: rgb(219, 219, 26);
 }
 
 li {
