@@ -17,7 +17,7 @@ if (taskInputElement.value == "") {
 
 const taskListElement = document.querySelector("#taskList")
 
-const taskItemElement = document.createElement("#taskItem")
+const taskItemElement = document.createElement("li")
 taskItemElement.classList.add("taskItem");
 taskItemElement.textContent = taskInputValue;
 console.log(taskItemElement);
