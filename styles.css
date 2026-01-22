@@ -54,22 +54,26 @@ header, footer {
   background-color: rgb(219, 219, 26);
 }
 
-#tasklist {
+#taskList {
   display: flex;
   flex-direction: column;
   width: 350px;
+  list-style: none;
 }
 
 #taskItem {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   background-color: white;
   height: 25px;
   width: 250px;
   gap:50px;
 }
 
-
+#taskCompleted {
+  margin-left: 155px;
+}
 
 
 #clearBtn {
