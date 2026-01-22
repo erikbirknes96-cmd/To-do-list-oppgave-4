@@ -56,15 +56,20 @@ header, footer {
 
 #tasklist {
   display: flex;
-  flex-direction: row;
-  width: 300px;
+  flex-direction: column;
+  width: 350px;
 }
 
-#tasks {
+#taskItem {
+  display: flex;
+  flex-direction: row;
   background-color: white;
   height: 25px;
   width: 250px;
+  gap:50px;
 }
+
+
 
 
 #clearBtn {
